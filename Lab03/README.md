@@ -21,3 +21,12 @@
 ![](https://github.com/Shyggo/Android_Development/blob/main/Lab03/Runtime03.png)
 
 ![](https://github.com/Shyggo/Android_Development/blob/main/Lab03/Runtime04.png)
+
+### 3. Homework 1runtime & 2 sreenshots
+
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab03/homework.png)
+
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab03/Code05.png)
+
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab03/Code06.png)
+
