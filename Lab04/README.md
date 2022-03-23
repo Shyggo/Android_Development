@@ -6,9 +6,9 @@
 
 ### 2. Practice01 2 logcat & 2 codes
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/dessertClicker_logca.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/dessertClicker_logcat.png)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/travia_logca.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/travia_logcat.png)
 
 ![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/dessertClicker_code.png)
 
