@@ -18,9 +18,9 @@
 
 [Recording](https://github.com/Shyggo/Android_Development/blob/main/Lab04/dessert_rotate.mp4)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/travia_code_01.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/dessertClicker_code_01.png)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/travia_code_01.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab04/dessertClicker_code_01.png)
 
 ### Homework 1 recording & 1 code
 
