@@ -16,10 +16,10 @@
 
 ![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/Running Codes/Code01.png)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/Running Codes/Code02.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/RunningCodes/Code02.png)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/Running Codes/Code03.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/RunningCodes/Code03.png)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/Running Codes/Code04.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/RunningCodes/Code04.png)
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/Running Codes/Code05.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/RunningCodes/Code05.png)
