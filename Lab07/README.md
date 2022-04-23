@@ -14,7 +14,7 @@
 
 ### 3. Homework 5 Code Shots
 
-![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/Running Codes/Code01.png)
+![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/RunningCodes/Code01.png)
 
 ![](https://github.com/Shyggo/Android_Development/blob/main/Lab07/RunningCodes/Code02.png)
 
