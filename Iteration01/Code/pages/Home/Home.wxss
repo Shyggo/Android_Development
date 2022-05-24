@@ -1,0 +1,4 @@
+/* 顶部轮播图 */
+swiper {
+  height: 380rpx;
+}
