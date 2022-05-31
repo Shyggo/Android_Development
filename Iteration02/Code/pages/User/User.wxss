@@ -1,0 +1,45 @@
+/* pages/User/User.wxss */
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-image: url('https://616d-amper-environment-0e1sv6a1899928-1312245231.tcb.qcloud.la/MyBG.png?sign=1279439c9b200022426715a111b24348&t=1653993449');
+  background-size: 100% 100%;
+  position: relative;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+  top: 30%;
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 20rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}
+button[plain] {
+  border-color: white;
+  color: white;
+}
+.user_content{
+  margin-top: 20rpx
+  ;
+}
+.user_content .app_info .app_info_item {
+  padding: 20rpx ;
+  border-bottom: 1rpx solid #ccc;
+}

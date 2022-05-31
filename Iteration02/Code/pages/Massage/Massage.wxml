@@ -1,0 +1,16 @@
+<view class="container">
+  <Search></Search>
+
+</view>
+
+<view class="message_content">
+  <block wx:for="{{message_list}}">
+    <view class="message_item">
+      <image class="message_ima" src="/Icons/用户.png" />
+      <view class="message_info">
+        <view class="message_shop_name">店家</view>
+        <view class="message_sim">消息</view>
+      </view>
+    </view>
+  </block>
+</view>
