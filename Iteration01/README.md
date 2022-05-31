@@ -20,6 +20,12 @@
 
 
 
-### 4.Codes
+### 4.QR code
+
+![](https://github.com/Shyggo/Android_Development/blob/main/Iteration01/二维码.jpg)
+
+
+
+### 5.Codes
 
 [源代码](https://github.com/Shyggo/Android_Development/blob/main/Iteration01/Code)
