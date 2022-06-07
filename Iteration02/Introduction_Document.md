@@ -63,4 +63,18 @@
 
 
 
-4.
+4. 实现客服交谈，使用按钮下的contact模式，即可调用官方的客服交流模块，实现简单客服咨询，双方可进行交流，支持文本、图片、音频、视频、文件传输。
+
+![image-20220607204911990](C:\Users\50470\AppData\Roaming\Typora\typora-user-images\image-20220607204911990.png)
+
+
+
+5. 封装为组件，在一些小程序频繁使用的比如搜索框、顶部栏，如果每次使用都重写一次代码，会大大增加代码的冗余程度和重复性，我们将频繁使用的小组件封装在 `Components` 中，每次使用只需简单的调用即可。
+
+   ![image-20220607205457738](C:\Users\50470\AppData\Roaming\Typora\typora-user-images\image-20220607205457738.png)
+
+   ![image-20220607205536026](C:\Users\50470\AppData\Roaming\Typora\typora-user-images\image-20220607205536026.png)
+
+
+
+7. 

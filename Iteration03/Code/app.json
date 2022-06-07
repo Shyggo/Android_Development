@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/logs/logs",
+    "pages/Search/Search",
+    "pages/Category/Category",
+    "pages/Cart/Cart",
+    "pages/User/User",
+    "pages/Massage/Massage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#faa805",
+    "navigationBarTitleText": "农产品销售中心",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "Icons/首页.png",
+        "selectedIconPath": "Icons/204首页.png"
+      },
+      {
+        "pagePath": "pages/Category/Category",
+        "text": "分类",
+        "iconPath": "Icons/分类.png",
+        "selectedIconPath": "Icons/分类(1).png"
+      },
+      {
+        "pagePath": "pages/Massage/Massage",
+        "text": "消息",
+        "iconPath": "Icons/消息.png",
+        "selectedIconPath": "Icons/消息(1).png"
+      },
+      {
+        "pagePath": "pages/Cart/Cart",
+        "text": "购物车",
+        "iconPath": "Icons/购物车.png",
+        "selectedIconPath": "Icons/购物车-fill.png"
+      },
+      {
+        "pagePath": "pages/User/User",
+        "text": "我的",
+        "iconPath": "Icons/我的.png",
+        "selectedIconPath": "Icons/我的(1).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
