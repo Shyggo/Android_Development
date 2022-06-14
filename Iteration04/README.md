@@ -29,3 +29,9 @@
 ### 5.Codes
 
 [源代码](https://github.com/Shyggo/Android_Development/blob/main/Iteration04/Code)
+
+
+
+### 6.提交比赛截图
+
+![](https://github.com/Shyggo/Android_Development/blob/main/Iteration04/submit_screenshot.png)
