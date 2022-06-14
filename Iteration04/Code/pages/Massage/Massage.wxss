@@ -1,0 +1,31 @@
+.message_item {
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20rpx;
+  border: 3rpx solid #E0E3DA;
+  box-shadow:5rpx 5rpx 5rpx 5rpx #E0E3DA;
+  background-color: #ffffff;
+  margin: 30rpx;
+  padding: 30rpx;
+}
+.message_ima {
+  width: 110rpx;
+  height: 100rpx;
+}
+.message_shop_name {
+  padding: 0, 0, 10rpx, 0;
+  font-size: 38rpx;
+  font-weight: 700;
+  width: 500rpx;
+  white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.message_sim {
+  font-size: 30rpx;
+  word-break: break-all;
+  color: #7a7878;
+  margin-top: 10rpx
+}

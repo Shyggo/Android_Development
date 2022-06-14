@@ -1,0 +1,27 @@
+<view class="tabs">
+  <view class="tabs_title">
+    <view
+    wx:for="{{tabs}}"
+    wx:key="id"
+    class="title_item  {{item.isActive?'active':''}} "
+    bindtap="handleTabsItemChange"
+    data-index="{{index}}"
+    >
+
+    {{item.value}}
+    </view>
+  </view>
+</view>
+
+
+<view class="message_content">
+  <block wx:for="{{message_list}}">
+    <view class="message_item">
+      <image class="message_ima" src="/Icons/店铺收藏.png" />
+      <view class="message_info">
+        <view class="message_shop_name">订单</view>
+        <view class="message_sim">目前所在地</view>
+      </view>
+    </view>
+  </block>
+</view>

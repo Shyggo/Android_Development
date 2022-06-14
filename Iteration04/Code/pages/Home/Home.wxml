@@ -1,0 +1,47 @@
+<view class="container">
+  <Search></Search>
+
+</view>
+
+<!-- 轮播图 -->
+<view>
+	<swiper indicator-dots="{{true}}" indicator-color="#f4c903" autoplay="true" circular="true">
+		<block wx:for="{{sliperList}}" wx:key="key">
+			<swiper-item bindtap="jump_orderPage">
+				<image src='{{item}}' mode="scaleToFill" style="width:100%;height:100%;" />
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+
+<view class="separate"></view>
+
+<!-- 分类导航 -->
+<view class="navs">
+    <block wx:for-items="{{navItems}}" wx:key="name">
+      <view class="nav-item" catchtap="catchTapCategory" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+        <image src="{{item.imageurl}}" class="nav-image" />
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+
+  <view class="separate"></view>
+
+  <view class="cate-container">
+
+    <view class="category-title">
+      <text class="name">新品上架</text>
+      <view class="line_flag"></view>
+      <image class="head-img" src="cloud://amper-environment-0e1sv6a1899928.616d-amper-environment-0e1sv6a1899928-1312245231/头图.jpg"></image>
+			<view class="separate"></view>
+			<image class="head-img" src="cloud://amper-environment-0e1sv6a1899928.616d-amper-environment-0e1sv6a1899928-1312245231/头图1.png"></image>
+			<view class="separate"></view>
+			<image class="head-img" src="cloud://amper-environment-0e1sv6a1899928.616d-amper-environment-0e1sv6a1899928-1312245231/头图2.png"></image>
+			<view class="separate"></view>
+			<image class="head-img" src="cloud://amper-environment-0e1sv6a1899928.616d-amper-environment-0e1sv6a1899928-1312245231/头图3.png"></image>
+			<view class="separate"></view>
+			<image class="head-img" src="cloud://amper-environment-0e1sv6a1899928.616d-amper-environment-0e1sv6a1899928-1312245231/头图4.png"></image>
+    </view>
+
+  </view>

@@ -1,0 +1,25 @@
+<view class="tabs">
+  <view class="tabs_title">
+    <view
+    wx:for="{{tabs}}"
+    wx:key="id"
+    class="title_item  {{item.isActive?'active':''}} "
+    bindtap="handleTabsItemChange"
+    data-index="{{index}}"
+    >
+
+    {{item.value}}
+    </view>
+  </view>
+</view>
+<view class="fb_main">
+  <view class="fb_content">
+    <textarea value="{{textVal}}" bindinput="handleTextInput" placeholder="Hi,Anything Feedback？"> </textarea>
+  </view>
+  <view class="form_btn_wrap">
+      <button bindtap="handleFormSubmit"  type="default" >
+        <icon  type="success_no_circle" size="23" color="#faa805">
+        </icon>提交
+      </button>
+    </view>
+</view>

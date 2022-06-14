@@ -1,0 +1,68 @@
+<!--pages/User/User.wxml-->
+<view class="user_info_wrap">
+  <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+    <view class="user_info">
+      <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <button plain bindtap="getUserProfile" > 登录 </button>
+  </view>
+</view>
+
+<view class="user_content">
+  <!-- 历史足迹 -->
+  <view class="history_content">
+      <navigator url="/pages/Collect/Collect">
+        <image class="his_icon" src="/Icons/收藏.png" mode="widthFix">  </image> 
+        <view class="his_info">收藏</view>
+      </navigator>
+      <navigator url="/pages/Collect/Collect">
+        <image class="his_icon" src="/Icons/订阅.png" mode="widthFix">  </image> 
+        <view class="his_info">订阅店铺</view>
+      </navigator>
+      <navigator url="/pages/Collect/Collect">
+        <image class="his_icon" src="/Icons/历史.png" mode="widthFix">  </image> 
+        <view class="his_info">足迹</view>
+      </navigator>
+      <navigator>
+        <image class="his_icon" src="/Icons/钱包.png" mode="widthFix">  </image> 
+        <view class="his_info">零钱</view>
+      </navigator>
+    </view>
+  <!-- 我的订单 -->
+  <view class="orders_content">
+      <view class="orders_title">我的订单</view>
+      <view class="order_container">
+        <navigator url="/pages/Order/Order?type=1">
+          <image class="order_icon" src="/Icons/全部订单.png" mode="widthFix">  </image>
+          <view class="order_name">全部订单</view>
+        </navigator>
+        <navigator url="/pages/Order/Order?type=2">
+          <image class="order_icon" src="/Icons/付款.png" mode="widthFix">  </image>
+          <view class="order_name">待付款</view>
+        </navigator>
+        <navigator url="/pages/Order/Order?type=3">
+          <image class="order_icon" src="/Icons/待收货.png" mode="widthFix">  </image>
+          <view class="order_name">待收货</view>
+        </navigator>
+        <navigator>
+          <image class="order_icon" src="/Icons/退款.png" mode="widthFix">  </image>
+          <view class="order_name">退款/退货</view>
+        </navigator>
+      </view>
+    </view>
+
+  <view class="app_info">
+    <navigator url="/pages/Feedback/Feedback" class="app_info_item app_info_feedback">反馈</navigator>
+    <view class="app_info_item app_info_help">
+      <text>帮助</text>
+    </view>
+    <navigator url="/pages/user/user" open-type="redirectTo" wx:if="{{userinfo.avatarUrl}}" bindtap="exitAccount" class="app_info_item" >退出</navigator>
+  </view>
+
+  <view class="app_contact">
+    <button open-type="contact">联系客服</button>
+  </view>
+</view>
